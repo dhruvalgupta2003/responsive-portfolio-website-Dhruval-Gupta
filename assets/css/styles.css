@@ -186,7 +186,7 @@ body.light-theme{
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 968px;
+  /* max-width: 968px; */
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -322,10 +322,14 @@ body.light-theme{
 
 }
 .home__img{
-  width : 160px ;
+  width: 500px;
+
+
 }
 .home__handle{
   justify-content: center;
+  width: 600px;
+  height: 400px;
 }
 .home__buttons{
   display :flex ;
